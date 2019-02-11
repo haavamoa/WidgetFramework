@@ -41,8 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Container\IWidgetDependency.cs" />
     <Compile Include="IWidget.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Configuration\IConfiguration.cs" />
+    <Compile Include="Configuration\WidgetUsage.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
